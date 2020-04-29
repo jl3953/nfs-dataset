@@ -2,10 +2,10 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-export PATH=$PATH:/proj/cops-PG0/workspaces/zhenyus/webcachesim/build/bin
+export PATH=$PATH:/proj/cops-PG0/workspaces/jl87/webcachesim/build/bin
 export WEBCACHESIM_TRACE_DIR=/nfs
-export WEBCACHESIM_ROOT=/proj/cops-PG0/workspaces/zhenyus/webcachesim
-export XDG_CONFIG_HOME=/proj/cops-PG0/workspaces/zhenyus/XDG_CONFIG
+export WEBCACHESIM_ROOT=/proj/cops-PG0/workspaces/jl87/webcachesim
+export XDG_CONFIG_HOME=/proj/cops-PG0/workspaces/jl87/XDG_CONFIG
 
 # If not running interactively, don't do anything
 case $- in

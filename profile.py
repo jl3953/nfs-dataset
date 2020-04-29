@@ -42,7 +42,7 @@ pc.defineParameter(
 
 pc.defineParameter(
     "username", "Username", portal.ParameterType.STRING,
-    "zhenyus"
+    "jl87"
 )
 
 # Always need this when using parameters
@@ -60,7 +60,7 @@ nfsServer.disk_image = params.os_image
 # Attach server to lan.
 nfsLan.addInterface(nfsServer.addInterface())
 # Initialization script for the server
-# nfsServer.addService(pg.Execute(shell="sh", command="sudo /bin/cp /local/repository/.bashrc /users/zhenyus/"))
+# nfsServer.addService(pg.Execute(shell="sh", command="sudo /bin/cp /local/repository/.bashrc /users/jl87/"))
 nfsServer.addService(pg.Execute(shell="sh", command="sudo /bin/bash /local/repository/nfs-server.sh"))
 nfsServer.addService(pg.Execute(
     shell="sh",
@@ -87,7 +87,7 @@ for i in range(params.client_count):
     node.disk_image = params.os_image
     nfsLan.addInterface(node.addInterface())
     # Initialization script for the clients
-    # node.addService(pg.Execute(shell="sh", command="sudo /bin/cp /local/repository/.bashrc /users/zhenyus/"))
+    # node.addService(pg.Execute(shell="sh", command="sudo /bin/cp /local/repository/.bashrc /users/jl87/"))
     node.addService(pg.Execute(shell="sh", command="sudo /bin/bash /local/repository/nfs-client.sh"))
     node.addService(pg.Execute(
         shell="sh",
