@@ -37,7 +37,7 @@ pc.defineParameter(
 
 pc.defineParameter(
     "dataset", "URN of your dataset dataset", portal.ParameterType.STRING,
-    "urn:publicid:IDN+clemson.cloudlab.us:cops-pg0+ltdataset+webcachesim_trace"
+    "urn:publicid:IDN+clemson.cloudlab.us:cops-pg0+ltdataset+jl87-webcachesim"
 )
 
 pc.defineParameter(
