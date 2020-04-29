@@ -32,7 +32,7 @@ pc.defineParameter(
 
 pc.defineParameter(
     "os_image", "Select OS image", portal.ParameterType.STRING,
-    "urn:publicid:IDN+clemson.cloudlab.us+image+cops-PG0:webcachesim_simulation:2"
+    "urn:publicid:IDN+clemson.cloudlab.us+image+cops-PG0:lrb-clemson"
 )
 
 pc.defineParameter(
